@@ -1,3 +1,4 @@
+<h2>How to customise the USB name of your Arduino based Joystick</h2>
 To customize the name of your Arduino-based joystick so that it's recognized with a custom name by Unity (or any operating system), you need to modify the USB descriptors on the Arduino. Since you are using an Arduino Micro, which is based on the ATmega32U4, it has native USB capabilities, and you can adjust the name via its firmware.
 
 * In the Arduino IDE, go to the installation folder and find the boards.txt file:
